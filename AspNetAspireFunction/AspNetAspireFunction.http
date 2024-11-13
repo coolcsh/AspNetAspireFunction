@@ -1,0 +1,9 @@
+@AspNetAspireFunction_HostAddress = http://localhost:7045
+
+POST {{AspNetAspireFunction_HostAddress}}/api/Function1
+Content-Type: application/json
+{ 
+  "value" : "Welcome to .NET Conf 2024"
+}
+
+###
